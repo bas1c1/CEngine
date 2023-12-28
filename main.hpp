@@ -1,5 +1,4 @@
 #include <iostream>
-#include <glm/glm.hpp>
 #include <GL/freeglut.h>
 #include <GL/gl.h>
 #include <fstream>
