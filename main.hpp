@@ -86,7 +86,6 @@ long long int globalFrameCounter = 0;
 
 void timer(int) {
     globalFrameCounter += 1;
-    printf("%d\n", globalFrameCounter);
     glutSwapBuffers();
     glutPostRedisplay();
     glutTimerFunc(1000/60, timer, 0);
